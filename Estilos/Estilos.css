@@ -1,0 +1,25 @@
+* body{
+  background:blue;
+}
+html{
+  font-size: 62.5;
+}
+.nav {
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  height: 40px;
+  justify-items: center;
+}
+ul {
+  margin-left: 400px;
+  margin-top: 20px;
+  width: 100%;
+  height: 40px;
+  
+}
+.item1, .item2, .item3, .item4 {
+  display: inline-block;
+  gap: 15px;
+}
+
